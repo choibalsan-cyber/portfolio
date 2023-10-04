@@ -5,7 +5,8 @@ body {
     font-family: 'Roboto', sans-serif;    
     background-color: #a5a58d;
     color: #fff;    
-    
+    height:calc(100vh-header);
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -20,6 +21,16 @@ a:hover {
 h1 {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main {
+    margin-top: 200px;
 }
 
 .navbar {
@@ -50,4 +61,6 @@ img {
 
 footer p {
     text-align: center;
+    position: fixed;
+    bottom: 0;
 }
