@@ -1,0 +1,89 @@
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    height: 60px;
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem;
+}
+
+.first {
+    height: 3px;
+    width: 15px;
+    background-color: black;
+}
+
+.first::after {
+    content: '';
+    top: 20px;
+    height: 3px;
+    width: 15px;
+    background-color: black;
+}
+
+input {
+    border-radius: 20px;
+    outline: none;
+}
+
+.logo {
+    flex: 1;
+}
+
+.glass {
+    width: 100px;
+    height: 100px;
+}
+
+.sign {
+    flex: 1;
+    text-align: center;
+}
+
+
+ 
+
+  .left {
+    background-color: pink;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+      padding: 1rem;
+      
+    border-radius: 20px;
+    margin: 10px;
+  }
+
+  .box:hover {
+    background-color: #ccc;
+  }
+  
+  .right {
+    background-color: lightblue;
+    flex: 6;
+  }
+
+  .videos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  video {
+    width: 300px;
+    height: 280px;
+  }
+  .container {
+    display: flex;
+    height: 95vh;
+  }
