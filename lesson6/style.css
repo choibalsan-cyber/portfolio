@@ -16,11 +16,15 @@ body {
   flex: 1;
   display: flex;  
   align-items: center;  
+  width: 40px;
+  height: 40px;
 }
 
 .logo .line {
-  margin-right: 1rem;
-  margin-left: 1rem;
+ 
+ width: 18px;
+ height: 18px;
+ margin-left: 1rem;
 }
 
 .logo-img {
@@ -58,7 +62,7 @@ body {
 .line > div::after, .line > div::before {
   content: '';
   position: absolute;
-  top: -8px;
+  top: -6px;
   width: 100%;
   height: 1px;
   background-color: inherit;
@@ -66,7 +70,7 @@ body {
 }
 
 .line > div::after {
-  top: 8px;
+  top: 6px;
 }
 
 
@@ -83,7 +87,9 @@ body {
   justify-content: space-between;
   align-items: center;  
   border: 1px solid #444;
-  border-radius: 12px;  
+  border-radius: 20px; 
+  width: 560px; 
+  
   
 }
 
@@ -91,11 +97,13 @@ body {
 
 input {
   outline: none;
-  padding: 8px;
+  // padding: 
   margin-right: 8px;
-  margin-left: .3rem;
+  margin-left: .5rem;
   border: none;
   border-right: 1px solid #444;
+  height: 24px;
+  width: 100%;
 }
 
 .glass {
@@ -137,11 +145,69 @@ input {
 }
 
 .left {
-  flex: 1;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 0 1rem; 
+  border-radius: 20px; 
+}
+
+.box p {
+  width: 180px;
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  
+}
+
+.group3 .box1 div {
+  color: blue;
+}
+
+.s-img {
+  margin-right: 1rem;
+}
+
+.group3 .box1 h4 {
+  margin-right: 1rem;
+}
+
+
+.group .box:first-child {
+  background-color: #eee;
+}
+
+
+.short-img {
+  width: 60px;
+  height: 60px;
+}
+
+.group {
+  border-bottom: 1px solid #ccc;
+  padding: 0 0.5rem;
+}
+
+.group1 {
+  border-bottom: 1px solid #ccc;
+  padding: 0 0.5rem;
+}
+
+.group1 .box:first-child {
+  background-color: none;
 }
 
 .right {
-  flex: 7;
+  flex: 8;
   display: flex;
   flex-direction: column;
 
@@ -171,6 +237,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 1rem;
 }
 
 .videos-in {
@@ -205,7 +272,9 @@ img {
 }
 
 video {
- width: 343px;
- height: 293px;
+ width: 323px;
+ height: 243px;
+ object-fit: fill;
  border-radius: 20px;
+ margin: 0.5rem 0;
 }
