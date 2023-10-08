@@ -5,10 +5,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+header {
+  margin-top: 1rem;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.5rem;
+
+  
 }
 
 
@@ -175,6 +183,7 @@ input {
 
 .s-img {
   margin-right: 1rem;
+  
 }
 
 .group3 .box1 h4 {
@@ -240,18 +249,24 @@ input {
   margin: 0 1rem;
 }
 
-.videos-in {
+
+ .videos-in {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
+
 
 .picture-text {
   display: flex;
+  
   width: 283px;
-  justify-content: space-between;
-  align-items: center;
- 
+  // justify-content: space-between;
+  // align-items: center;
+ margin-top: 1rem;
+}
+
+.picture-text .texts h4 {
+  margin: 0;
 }
 
 .picture {
@@ -260,6 +275,10 @@ input {
   border-radius: 50%;
   object-fit: cover;
   margin-right: 1rem  
+}
+
+.texts {
+  flex-wrap: wrap;
 }
 
 
