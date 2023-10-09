@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:  1rem;
+    background-color: #444;
+    margin-bottom: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+   
+}
+
+
+
+.input {
+    display: flex;
+    padding: 0.5rem;
+    
+    border: 1px solid ;
+    margin-left: .5rem;
+    border-radius: 20px;
+    border-color: #555;
+    background-color: #555;
+    
+}
+.glass {
+    margin-right: .3rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.home, .tv, .cake, .game {
+    padding: 1.5rem;    
+    margin-right: 1rem;
+}
+
+.home {
+    color: 1e81b0;
+    border-bottom: 2px solid #1e81b0;
+}
+
+.sign {
+    display: flex;
+    align-items: center;    
+}
+
+.box {
+    background-color: #222;
+    padding: .5rem;
+    border-radius: 50%;
+}
+.plus, .chat, .bell, .my-picture {
+    margin-right: 1rem;
+}
+
+
+.sign .my-picture {
+    width: 40px;
+    height: 40px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
