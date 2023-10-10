@@ -21,8 +21,13 @@ body {
     align-items: center;
 }
 
+.picture i {
+    color: #fff;
+    background-color: #fff;
+}
+
 .logo img {
-   
+   background-color: #fff;
 }
 
 
@@ -67,11 +72,12 @@ input {
 
 .sign {
     display: flex;
-    align-items: center;    
+    align-items: center;  
+    justify-content: space-evenly;  
 }
 
 .box {
-    background-color: #222;
+    background-color: #555;
     padding: .5rem;
     border-radius: 50%;
 }
@@ -85,8 +91,169 @@ input {
     height: 40px;
 }
 
-img {
-    width: 40px;
-    height: 40px;
+.sign .my-picture img  {
+    width: 33.5px;
+    height: 33.5px;
     border-radius: 50%;
+}
+
+.main-container {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+aside {
+    flex: 1;
+}
+
+.first {
+    margin: 1rem ;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #777
+}
+
+.first .page-icon {
+    display: flex;
+    align-items: center;
+    
+}
+
+.page-icon img {
+    margin-right: 1rem;
+    width: 33.5px;
+    height: 33.5px;
+    border-radius: 50%;
+}
+
+.page-icon i {
+    margin-right: 1rem;
+    align-self: center;
+}
+
+.page-icon h4 {
+    align-self: center;
+}
+
+.page-icon .abs {
+    background-color: #555;
+    border-radius: 50%;
+    padding: .5rem;
+} 
+
+.main-content {
+    flex: 3;
+   
+}
+.head {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding: 0.5rem 1rem;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px ;
+}
+.main-pic {
+    margin-right: 1rem;
+}
+.main-pic img {
+    border-radius: 50%;
+}
+
+.head-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.head-texts p {
+    margin: 0;
+}
+.head-texts p:first-child {
+    margin-bottom: .2rem;
+}
+
+
+
+
+
+.picture-main img {
+    object-fit: cover;
+    width: 100%;
+    height: 90vh;
+}
+.picture-main .rate {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+
+.picture-main .rate img {
+    width: 20px;
+    height: 20px;
+    padding: .3rem;
+    border-radius: 50%;
+    background-color: #777;
+    color: #fff;
+}
+.picture-main .rate img:nth-child(2) {
+    margin-right: .75rem;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #444;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.section .a {
+    display: flex;
+    align-items: center;
+    
+}
+
+.section .a img {
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+}
+
+.third {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+   margin-right: 1rem;
+}
+
+.third h3 {
+    align-self: flex-start;
+    
+}
+
+
+.ogloo-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.ogloo-img img {
+    width: 33.5px;
+    height: 33.5px;
+    border-radius: 30%; 
+    margin-right: 1rem;
+}
+
+.ogloo-img:last-child  {
+    border-bottom: 2px solid #444;
+    
 }
