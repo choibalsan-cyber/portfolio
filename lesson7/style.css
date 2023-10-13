@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: #222;
+    background-color: #242526;
     color: #fff;
 }
 
@@ -11,8 +11,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // padding-inline:  1rem;
-    background-color: #444;
+    padding-inline:  1rem;
+    background-color: #242526;
     margin-bottom: 0;
     border-bottom: 1px solid #555;
     padding: 0 .5rem;
@@ -44,8 +44,8 @@ p {
     border: 1px solid ;
     margin-left: .5rem;
     border-radius: 20px;
-    border-color: #555;
-    background-color: #555;
+    border-color: #3a3b3c;
+    background-color: #3a3b3c;
     color: #999;
     
 }
@@ -56,7 +56,7 @@ p {
 input {
     border: none;
     outline: none;
-    background-color: #555;
+    background-color: #3a3b3c;
     color: #fff;
 }
 
@@ -149,17 +149,29 @@ aside {
     
 }
 .page-icon .my-icon {
-    width: 30px;
-    height: 30px;
+    
     text-align: left;
 }
 
 .page-icon .my-icon i {
     align-self: center;
     margin-right: .5rem;
+    width: 28px;
+    height: 28px;
     
 }
 
+.page-icon .my-icon img {
+    align-self: center;
+    margin-right: .5rem;
+    width: 36px;
+    height: 36px;
+}
+
+.page-icon .small img {
+    width: 28px !important;
+    height: 28px !important;
+}
 
 .main-content {
     flex: 3;

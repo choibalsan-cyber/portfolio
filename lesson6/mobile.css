@@ -1,0 +1,32 @@
+@media  screen and (max-width: 480px) {
+    .navbar .logo .line, .navbar .input .input-with input, .navbar .input .mic, .navbar .icons  {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar .input .input-with .glass {
+        background-color: #fff;
+        border: none;
+    }
+
+    .container .left {
+      display: none;  
+    }
+
+    .container .right {
+        padding: 0 .5rem;
+    }
+    .container .right .filter .btn:nth-child(5),
+    .container .right .filter .btn:nth-child(6),
+    .container .right .filter .btn:nth-child(7),
+    .container .right .filter .btn:nth-child(9),
+    .container .right .filter .btn:nth-child(10) {
+        display: none;
+
+    }
+    
+}
