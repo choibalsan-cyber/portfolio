@@ -18,6 +18,8 @@ body {
     padding: 0 .5rem;
 }
 
+
+
 .logo {
     display: flex;
     align-items: center;
@@ -114,6 +116,13 @@ input {
 
 aside {
     flex: 1;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    height: 80vh;
+}
+
+aside:hover {
+    overflow-y: scroll;
 }
 
 .first {
@@ -129,49 +138,38 @@ aside {
 
 .first .page-icon {
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
+    padding-left: .5rem ;  
+
+}
+.first .page-icon:hover {
+    background-color: #3a3b3c;
+    border-radius: 12px;
+    padding-inline: 12px;
 }
 
 
-
-.page-icon .img {
-   
-    width: 24px;
-    height: 24px;
-    margin-right: .4rem;
-}
-
-.page-icon .img img {
-    width: 100%;
-    height: 100%;
+.first .page-icon img {
     border-radius: 50%;
-    
-}
-.page-icon .my-icon {
-    
-    text-align: left;
-}
-
-.page-icon .my-icon i {
-    align-self: center;
-    margin-right: .5rem;
-    width: 28px;
-    height: 28px;
-    
-}
-
-.page-icon .my-icon img {
-    align-self: center;
-    margin-right: .5rem;
     width: 36px;
     height: 36px;
+    margin-right: .5rem;
 }
 
-.page-icon .small img {
-    width: 28px !important;
-    height: 28px !important;
+.first .page-icon i {
+    width: 28px;
+    height: 28px;
+    padding-right: .5rem;
 }
+
+.first .page-icon .zurag .dugui {
+    background-color: #303031;
+    border-radius: 50%;
+    align-self: center;
+    
+    
+}
+
 
 .main-content {
     flex: 3;
