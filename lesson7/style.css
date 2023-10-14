@@ -118,7 +118,7 @@ aside {
     flex: 1;
     overflow-y: scroll;
     overflow-y: hidden;
-    height: 80vh;
+    height: 60vh;
 }
 
 aside:hover {
@@ -139,15 +139,17 @@ aside:hover {
 .first .page-icon {
     display: flex;
     align-items: center; 
-    padding-left: .5rem ;  
-
+    padding-left: .5rem ; 
+    padding-top: .2rem; 
+    padding-bottom: .2rem; 
+    transition: all .3s ease-in;
 }
+
 .first .page-icon:hover {
     background-color: #3a3b3c;
     border-radius: 12px;
-    padding-inline: 12px;
+   
 }
-
 
 .first .page-icon img {
     border-radius: 50%;
@@ -156,20 +158,19 @@ aside:hover {
     margin-right: .5rem;
 }
 
-.first .page-icon i {
+.first .page-icon .minii_icon {
     width: 28px;
     height: 28px;
-    padding-right: .5rem;
+    padding-right: .5rem;    
 }
 
-.first .page-icon .zurag .dugui {
+.first .page-icon .dugui {
     background-color: #303031;
     border-radius: 50%;
-    align-self: center;
-    
-    
+    padding: 0.4rem .5rem;   
+    margin-right: .7rem; 
+    margin-left: .2rem;
 }
-
 
 .main-content {
     flex: 3;
@@ -373,4 +374,14 @@ aside:hover {
 
 .birthday .present p {
     font-size: 15px;
+}
+.stories {
+    display: flex;
+}
+
+.stories .group_pic .profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid #0866ff;
 }
