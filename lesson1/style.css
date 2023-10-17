@@ -10,17 +10,18 @@ ul {
 
 a {
     text-decoration: none;
+    color: #eaa0a2;
 }
 
  body {
     line-height: 1.4;
-    color: #fff;
+    color: #333;
  }
 
  /* Header */
  header {
     
-    background-color: blueviolet;
+    background-color: #fff;
  } 
  
 
@@ -30,14 +31,85 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: .5rem 1rem;
+    
  }
 
  .navbar {
     display: flex;
     align-items: center;
-    
+    position: sticky;
+    z-index: 100;
+    top: 0;
  }
 
  .navbar li a {
-    padding: .5rem;
+   padding: .5rem;
+}
+
+#home, #about, #works {
+   border-bottom: 1px solid #eaa0a2;
+}
+
+.home-container {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 4rem;
  }
+
+ .about-container {
+   padding: 2rem;
+   display: flex;
+ }
+
+ .about-container .texts {
+   margin: 0 2rem;
+ }
+
+//  Чадварууд
+#works  {
+   
+   
+}
+
+.skills{
+   display: flex;
+   justify-content: space-around;
+}
+.skill-card{
+   padding: 1.75rem 2.5rem;
+   border-radius: 10px;
+   width: 150px;
+   height: 200px;
+   background-color: #aaaaaa;
+   color: #fff;
+}
+.skill-header{
+   border-bottom: 1px solid #eaa0a2;
+   text-align: center;
+   font-weight: 600;
+}
+.skill-details {
+   list-style-type: none;
+   padding: 10px;
+}
+ 
+// Hobby
+.hobby-img{
+   height: auto;
+   width: 400px;
+}
+.hobby-header{
+   font-size: 20px;
+   font-weight: 600;
+}
+.hobby-container{
+   width: 90vw;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.hobby-desc{
+   width: 30vw;
+}
+ 
