@@ -6,6 +6,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  margin: 0;
+  line-height: 1.6;
+}
 
 header {
   width: 1350px;
@@ -239,45 +243,52 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 1rem;
+  
 }
 
 
  .videos-in {
   display: flex;
   flex-direction: column;
+  
+  
+}
+.picture {
+    
+ 
 }
 
 .picture img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;   
   border-radius: 40px;
+  
 }
 
 
 .picture-text {
-  display: flex;
+  display: flex;  
+  width: 323px;
   
-  width: 283px;
-  // justify-content: space-between;
-  // align-items: center;
- margin-top: 1rem;
 }
 
-.picture-text .texts h4 {
-  margin: 0;
+.picture-text .texts {
+  padding-right: .5rem; 
+  margin-left: .5rem;
 }
 
-.picture {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-right: 1rem  
+.picture-text .texts p:first-child {
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.texts {
-  flex-wrap: wrap;
+.picture-text .texts p:nth-child(2), .picture-text .texts p:nth-child(3) {
+  font-size: 14px;
+  color: #969696;
+}
+
+.picture-text .texts p i  {
+  margin-left: 5px;
 }
 
 
@@ -285,9 +296,10 @@ input {
 
 
 
-video {
+.video-img img {
  width: 323px;
- height: 243px;
+ height: 190px;
+ width: 100%;
  object-fit: fill;
  border-radius: 20px;
  margin: 0.5rem 0;
