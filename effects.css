@@ -32,7 +32,7 @@
     scroll-behavior: smooth;
   }
 
-  // Air mode
+   /* Air mode */
   #move_image {
     position: relative;
     display: flex;
@@ -50,7 +50,7 @@
     opacity: 0.5;
   }
 
-  // Intro Css
+   /* Intro Css */
   .intro {
     display: flex;
     align-items: center;
