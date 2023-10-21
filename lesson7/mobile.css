@@ -1,0 +1,20 @@
+@media  screen and (max-width: 500px) {
+    .logo .input input, .navbar .icons, .container .content .left, .container .content .right  {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+        overflow-x: none;
+    }    
+
+    .container .content .center{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container .content .center .stories {
+        margin: 1rem 0;
+        justify-content: space-evenly;
+    }
+}

@@ -32,6 +32,12 @@ a {
 }
 .padding {
     padding: 1rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.padding:hover {
+    background-color: #3a3b3c;
+    border-radius: 8px;
 }
 
 // Navbar style
@@ -124,6 +130,13 @@ nav {
     padding: .6rem;
     border-radius: 50%;
     margin-right: 1rem;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar .sign .circle:hover {
+    background-color: #5f5f69;
+    
 }
 
 .navbar .sign .my-picture img {
@@ -188,7 +201,7 @@ nav {
 .sidebar .page-icon:hover {
     background-color: #3a3b3c;
     border-radius: 12px;
-   
+    cursor: pointer;
 }
 
 .sidebar .shortcuts {
@@ -209,10 +222,6 @@ nav {
     margin-right: .5rem;
 }
 
-.contaner {
-    
-}
-
 .container .content {
     padding: .3rem;
     display: flex;
@@ -231,15 +240,25 @@ nav {
     justify-content: space-between;
     margin-bottom: 1rem;
     padding:0;
-    margin: 0 2rem;
+    margin: 0 4rem;
+}
+
+.container .content .center .stories .story .dot p {
+    color: #fff;
 }
 
 .container .content .center .stories .story {
     border-radius: 5px;
     padding: 1rem ;    
     height: 200px;
-    width: 120px;
+    width: 110px;
     position: relative;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.container .content .center .stories .story:hover {
+    transform: scale(1.05);
 }
 
 .container .content .center .stories .story::before {
@@ -258,9 +277,18 @@ nav {
     height: 36px;
     border: 3px solid #0866ff;
     position: relative;
-
 }
 
+
+.container .content .center .stories .story .live {
+    position: absolute;
+    top: 42px;
+    left: 47px;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
 
 .container .content .center .stories .story .dot {
     position: absolute;
@@ -286,7 +314,7 @@ nav {
 }
 
 .container .content .center .stories .content .story1 {
-    background: #3a3b3c url('../lesson1/profile.jpg') no-repeat center center/cover;
+    background: #3a3b3c url('../icons/profile.jpg') no-repeat center center/cover;
     height: 60%;
     
 }
@@ -312,6 +340,9 @@ nav {
     
 
 }
+.container .content .center .stories {
+    margin: 0 5rem;
+}
 
 .container .content .center .head {
     display: flex;
@@ -333,7 +364,7 @@ nav {
 .post .container {
     display: flex;
     flex-direction: column;
-    margin: 1rem 5rem;
+    margin: 1rem 7rem;
     background-color: #242526;
     padding: 1rem;
     border-radius: 10px;
@@ -375,10 +406,9 @@ nav {
 }
 
 .post .container .icons .icon {
-    display: flex;
-    margin-left: .75rem;
+    display: flex;    
     align-items: center;
-    padding: .3rem 1.5rem;
+    padding: .3rem 1rem;
     transition: all .2s ease-in;
 }
 
@@ -400,7 +430,7 @@ nav {
 .container .content .center .post-body .two-div {
     background-color: #242526 ; 
     padding: 0 1rem;
-    margin: 0 5rem;
+    margin: 0 7rem;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: 0  ;
@@ -433,6 +463,17 @@ nav {
 .post-text p {
     margin: 0;
 }
+
+.logo_with_text .texts .line-height {
+    line-height: 0;
+    margin: 0;
+}
+
+.post-picture {
+    margin: 0 7rem;
+    
+}
+
 
 .container .content .center .post-body .post-pictures .picture2 {
     display: flex;
@@ -475,7 +516,7 @@ nav {
 
 .rating {
     display: flex;
-    margin: 0 5rem;
+    margin: 0 7rem;
     padding: 0 1.5rem;
     justify-content: space-between;
     align-items: center;
@@ -521,8 +562,21 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
+    
 } 
+.right-content .icons {
+    display: flex;
+    align-items: center;
+}
+.right-content .icons .icon {
+    padding: .5rem;
+    transition: all .1s ease;
+}
+
+.right-content .icons .icon:hover {
+    border-radius: 50%;
+    background-color: #5f5f69;
+}
 
 .peoples {
     display: flex;
@@ -532,8 +586,8 @@ nav {
 
 .people {
     display: flex;
-    align-items: center;
-    padding: 0 .75rem;
+    align-items: center;    
+    
     transition: all .3s ease;
 }
 .people .dot {
@@ -543,12 +597,13 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: 36px;
-    left: 38px;
+    left: 25px;
 }
 
 .people:hover {
     background-color: #3a3b3c;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .people img {
@@ -565,7 +620,7 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: 84px;
-    left: 38px;
+    left: 25px;
 }
 
 .people .dot2 {
@@ -575,7 +630,7 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: 132px;
-    left: 38px;
+    left: 25px;
 }
 .people .dot3 {
     width: 8px;
@@ -584,7 +639,7 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: 183px;
-    left: 38px;
+    left: 25px;
 }
 .people .dot4 {
     width: 8px;
@@ -593,7 +648,7 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: 232px;
-    left: 38px;
+    left: 25px;
 }
 .people .dot5 {
     width: 8px;
@@ -602,7 +657,7 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: 281px;
-    left: 38px;
+    left: 25px;
 }
 .people .dot6 {
     width: 8px;
@@ -611,5 +666,40 @@ nav {
     border-radius: 50%;
     position: absolute;
     top: 332px;
-    left: 38px;
+    left: 25px;
+}
+
+.right .sponsor {
+    display: flex;
+    flex-direction: column;
+}
+
+.right .sponsor .sponsor-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.right .sponsor .sponsor-content:hover {
+    background-color: #3a3b3c;
+    border-radius: 20px;
+}
+
+.right .sponsor .sponsor-content img {
+    width: 100px;
+    height: 110px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.right .sponsor .sponsor-content h4 {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.profile img {
+    cursor: pointer;
 }

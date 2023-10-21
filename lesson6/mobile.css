@@ -1,11 +1,35 @@
-@media  screen and (max-width: 480px) {
-    .navbar .logo .line, .navbar .input .input-with input, .navbar .input .mic, .navbar .icons  {
+@media  screen and (max-width: 500px) {
+    header {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .navbar .logo .line, .navbar .input .input-with input  {
         display: none;
     }
-
+    
     .navbar {
         display: flex;
         justify-content: space-between;
+    }
+
+    .logo img {
+        padding: 18px 8px 18px 8px;       
+    }
+    .glass {
+        margin-left: 1rem;
+    }
+    .mic img {
+        margin-left: 3rem;
+        padding: 0.5rem;
+        background-color: #fff;
+        border-radius: 50%;
+        
+     }
+
+    .navbar .icons {
+        display: flex;
     }
 
     .navbar .input .input-with .glass {
@@ -28,5 +52,11 @@
         display: none;
 
     }
+    * {
+        cursor: pointer;
+    }
     
+    .videos .videos-in {
+        flex: 1;
+    }
 }
