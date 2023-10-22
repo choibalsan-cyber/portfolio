@@ -1,0 +1,18 @@
+@media screen and (max-width: 500px) {
+    body {
+        padding: 1rem;
+        width: 480px;
+    }
+    header {
+        width: 480px;
+    }
+
+    .header-container {
+        justify-content: space-evenly;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
