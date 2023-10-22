@@ -1,20 +1,41 @@
 @media  screen and (max-width: 500px) {
-    .logo .input input, .navbar .icons, .container .content .left, .container .content .right  {
+    .logo .input input, .navbar .icons .padding, .container .content .left, .container .content .right  {
         display: none;
     }
 
+    body {
+        width: 480px;
+        // height: 100vh;
+        padding: 0 .5rem;
+        overflow: auto
+    }
+   
     .navbar {
+        width: 480px;        
         width: 100%;
-        overflow-x: none;
-    }    
-
-    .container .content .center{
-        padding: 0;
+        height: 56px;        
+    }
+    .container .content .center {
         margin: 0;
+        justify-content: baseline;
+    }
+    .container .content .center .stories {
+        margin: 0;
+    }
+    
+    .container .content .center .stories .story3,
+    .container .content .center .stories .story4 {
+        display: none;
     }
 
     .container .content .center .stories {
-        margin: 1rem 0;
-        justify-content: space-evenly;
+        margin: 0rem;
     }
+
+    
+
+    
+    
+    
+
 }

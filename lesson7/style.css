@@ -43,9 +43,7 @@ a {
 // Navbar style
 nav {
     height: 56px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+   
 }
 
 .navbar {
@@ -315,8 +313,7 @@ nav {
 
 .container .content .center .stories .content .story1 {
     background: #3a3b3c url('../icons/profile.jpg') no-repeat center center/cover;
-    height: 60%;
-    
+    height: 60%;    
 }
 
 .container .content .center .stories .story1 i {
@@ -337,9 +334,8 @@ nav {
     background-color: #3a3b3c;
     padding: 0;
     border-radius: 5px;
-    
-
 }
+
 .container .content .center .stories {
     margin: 0 5rem;
 }
@@ -348,7 +344,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .container .content .center .head img{
