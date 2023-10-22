@@ -1,18 +1,74 @@
 @media screen and (max-width: 500px) {
     body {
-        padding: 1rem;
         width: 480px;
+        
     }
     header {
-        width: 480px;
+       width: 100%;
+       
     }
 
     .header-container {
         justify-content: space-evenly;
+        padding: 1rem;
     }
 
     .home-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .home-container .intro {
+        padding: 1rem;
+    }
+
+    .com img {
+        width: 150px;
+        
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills .skill-card {
+        margin: 1rem 3rem; 
+        display: flex;
+        width: 400px;
+        height: 150px;
+    }
+
+    .skill-details {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skill-details li {
+        padding: 1rem;
+    }
+
+    #work {
+        width: 480px;
+        margin: 0 1rem;
+    }
+
+    .work-container {
+        width: 100%;
+        display: flex;
+        margin: 0 1rem;
+        flex-direction: column;
+    }
+    
+
+    .work-card img {
+        width: 180px;
+
+    }
+    #contact {
+        margin: auto;
     }
 }

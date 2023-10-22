@@ -19,8 +19,7 @@ a {
  }
 
  /* Header */
- header {
-    background-color: #ffffff00;
+ header {   
     height: 56px;
     position: sticky;
     top: 0;
@@ -159,9 +158,9 @@ a {
    width: 90vw;
    display: flex;
    justify-content: space-around;
-   margin-bottom: 3rem;
-   
+   margin-bottom: 3rem;   
 }
+
 .work-card{
    border: 1px solid #eaa0a2;
    display: flex;
@@ -169,18 +168,22 @@ a {
    padding: 0 20px;
    padding-bottom: 20px;
 }
+
 .work-img{
    width: 300px;
    height: 180px;
-   object-fit: contain
+   object-fit: contain;
 }
+
 .languages{
    border-bottom: 1px solid #eaa0a2;
 }
+
 .work-header{
    padding-bottom: 10px;
    border-bottom: 1px solid #eaa0a2;
 }
+
 .visit{
    width: 80px;
    height: 30px;
