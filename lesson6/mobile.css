@@ -1,18 +1,28 @@
 @media  screen and (max-width: 480px) {
+    body {
+        padding: .5rem;
+    }
+
     header {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
     
-    .navbar .logo .line, .navbar .input .input-with input  {
+    .navbar {
+        display: flex;
+        
+    }
+
+    .navbar .logo .line, .navbar .input .input-with  {
         display: none;
     }
     
-    .navbar {
-        display: flex;
-        justify-content: space-between;
+    .navbar .icons .sign {
+        margin-right: .6rem;
     }
+
+    
 
     .logo img {
         padding: 18px 8px 18px 8px;       
