@@ -1,4 +1,4 @@
-@media  screen and (max-width: 500px) {
+@media  screen and (max-width: 480px) {
     .logo .input input, .navbar .icons .padding, .container .content .left, .container .content .right  {
         display: none;
     }
